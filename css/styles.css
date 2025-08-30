@@ -4,7 +4,7 @@ body {
 h1 {
   color: #563218;
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
 }
 h2 {
   color: #563218;
@@ -12,14 +12,10 @@ h2 {
   font-size: 30px;
 }
 p {
-  color: #563218;
-  border: 3px solid #9d8f86; /* adds the border */
-  background: #563218; /* background color */
-  color: #fbf7f7; /* text color */
+  text-align: center;
+  color: #563218; /* text color */
   font-weight: bolder;
-  font-size: 20px;
-  padding: 15px; /* space inside the border */
-  border-radius: 10px; /* optional: rounded corners */
+  font-size: 28px;
 }
 .contact {
   text-align: center;
@@ -33,4 +29,20 @@ img {
   margin-right: auto;
   width: 50%;
   border-radius: 20px;
+  margin-bottom: 20px;
+}
+.nav-links {
+  text-align: center;
+}
+.contact-link {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+a {
+  color: #563218;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bolder;
+  font-size: 18px;
 }
